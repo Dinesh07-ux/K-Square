@@ -52,7 +52,6 @@ const Users = () => {
         error: 'Failed to fetch users',
         loading: false
       }));
-      console.error(err);
     }
   }, [state.page, state.size, state.sort]);
 
